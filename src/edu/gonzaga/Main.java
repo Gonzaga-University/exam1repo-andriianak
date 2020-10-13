@@ -40,6 +40,11 @@ class Adder {
         return val2;
     }
 
+    //add function
+    public int add()
+    {
+        return val1 + val2;
+    }
 
 
 }
@@ -50,7 +55,7 @@ public class Main {
     public static void main(String args[]) {
         System.out.println("Starting app");
         Adder adder = new Adder(10, 20);
-        
+
 
         System.out.println("App finished.");
     }
